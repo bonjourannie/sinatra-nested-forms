@@ -14,5 +14,9 @@ attr_reader :name, :type, :booty
   def self.all
     @@ships
   end
+  
+  def self.clear
+    @@ships = []
+  end
 
 end
